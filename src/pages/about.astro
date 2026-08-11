@@ -1,5 +1,6 @@
 ---
 import PageLayout from "@/layouts/Base.astro";
+// import SocialList from "@/components/SocialList.astro";
 
 const meta = {
 	description: "About my-blog",
@@ -10,17 +11,29 @@ const meta = {
 <PageLayout meta={meta}>
 	<h1 class="title mb-12">About</h1>
 	<div class="prose prose-sm prose-cactus max-w-none">
-		<p>
-			Hi，欢迎来到 my-blog。这是一个基于 Astro 构建的个人博客。
-		</p>
-		<p>本站具备以下特性：</p>
+		<p>在这个博客里分享一些我的想法，记录下来，和有共同兴趣的人一起交流。</p>
+		<p>我的联系方式：</p>
 		<ul class="list-inside list-disc" role="list">
-			<li>静态站点，加载速度快</li>
-			<li>响应式布局，适配各种设备</li>
-			<li>支持亮色与暗色主题</li>
-			<li>基于 Tailwind CSS 样式</li>
-			<li>代码语法高亮</li>
-			<li>自动生成博客文章的 OG 图片</li>
+			<li>电子邮箱：johntangly@gmail.com</li>
 		</ul>
+		<p>订阅新的内容：</p>
+		<ul class="list-inside list-disc" role="list">
+			<li>
+				X（原Twitter）：<a href="https://x.com/pickmiu" target="_blank">https://x.com/pickmiu</a>
+			</li>
+			<li>
+				RSS：<a href="https://blog.talkwithai.xyz/rss.xml" target="_blank"
+					>https://blog.talkwithai.xyz/rss.xml</a
+				>
+			</li>
+			<li>
+				RSS-Notes：<a href="https://blog.talkwithai.xyz/rss-notes.xml" target="_blank"
+					>https://blog.talkwithai.xyz/rss-notes.xml</a
+				>
+			</li>
+		</ul>
+		<!-- <div class="mt-4">
+			<SocialList />
+		</div> -->
 	</div>
 </PageLayout>

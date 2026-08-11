@@ -17,7 +17,7 @@
 	"dependencies": {
 		"@astrojs/markdown-satteri": "^0.3.3",
 		"@astrojs/mdx": "7.0.0",
-		"@astrojs/rss": "4.0.18",
+		"@astrojs/rss": "^4.0.18",
 		"@astrojs/sitemap": "3.7.3",
 		"@pagefind/component-ui": "^1.5.2",
 		"@tailwindcss/vite": "4.3.2",
@@ -47,6 +47,7 @@
 		"@types/mdast": "^4.0.4",
 		"@types/node": "^26.0.1",
 		"autoprefixer": "^10.5.2",
+		"code-inspector-plugin": "^2.0.7",
 		"pagefind": "^1.5.2",
 		"prettier": "^3.9.4",
 		"prettier-plugin-astro": "0.14.1",
